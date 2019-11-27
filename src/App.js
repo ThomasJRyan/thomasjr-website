@@ -75,6 +75,7 @@ class Skills extends React.Component {
           <Skill url="https://cdn.worldvectorlogo.com/logos/javascript-1.svg">JavaScript</Skill>
           <Skill url="https://media.discordapp.net/attachments/276385071424995330/649338771770179645/512x512.png">Bash</Skill>
           <Skill url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Manjaro-logo.svg/1024px-Manjaro-logo.svg.png">Manjaro</Skill>
+          <Skill url="https://cdn.discordapp.com/attachments/276385071424995330/649345635903864851/kisspng-openstack-red-hat-enterprise-linux-computer-softwa-network-node-5b0cbb48c47168.3660723415275.png">OpenStack</Skill>
           </div>
       </div>
       </ScrollableAnchor>

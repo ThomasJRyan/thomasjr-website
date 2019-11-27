@@ -120,7 +120,7 @@
 }
 
 .Skill img:hover {
-  transform: rotateZ(360deg);
+  transform: rotateY(360deg);
 }
 
 .test {
@@ -128,5 +128,5 @@
   z-index: -1;
   width: 100vw;
   height: 100vh;
-  background-color: yellow;
+  background-color: rgba(0, 0, 0, 0);
 }
