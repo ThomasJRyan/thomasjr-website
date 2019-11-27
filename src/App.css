@@ -78,7 +78,7 @@
 }
 
 .Blurb-div {
-  background-color: #858AE3;
+  background-color: #613DC1;
   width: 100vw;
   min-height: 50vh;
   display: flex;
@@ -98,7 +98,30 @@
   /* min-height: 50vh; */
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  flex-flow: wrap;
+  color: black;
+}
+
+.Skills-div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 50vw;
+}
+
+@media only screen and (max-width: 1300px) {
+  .Skills-div div {
+    max-width: none;
+  }
+}
+
+.Skills-div div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-flow: wrap;
 }
 
@@ -113,8 +136,8 @@
 
 .Skill img {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   transition: all;
   transition-duration: 1s;
 }

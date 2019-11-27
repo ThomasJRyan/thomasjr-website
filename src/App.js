@@ -60,21 +60,33 @@ class Skills extends React.Component {
       <div>
         <h1>Skills</h1>
         <div className="Skills-div">
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png">Python</Skill>
-          <Skill url="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png">C++</Skill>
-          <Skill url="https://cdn.worldvectorlogo.com/logos/react.svg">React</Skill>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/8/82/C_Sharp_logo.png">C#</Skill>
-          <Skill url="http://logo-load.com/uploads/posts/2016-02/1456125746_logo-ubuntu.png">Ubuntu</Skill>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png">PowerShell</Skill>
-          <Skill url="https://dwglogo.com/wp-content/uploads/2018/03/SQLite_Vector_logo.png">SQLite</Skill>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png">Rust</Skill>
-          <Skill url="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">Git</Skill>
-          <Skill url="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png">GitHub</Skill>
-          <Skill url="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png">HTML5</Skill>
-          <Skill url="https://verekia.com/_pages/css3/introduction-css3/img/css3-logo.png">CSS3</Skill>
-          <Skill url="https://cdn.worldvectorlogo.com/logos/javascript-1.svg">JavaScript</Skill>
-          <Skill url="https://media.discordapp.net/attachments/276385071424995330/649338771770179645/512x512.png">Bash</Skill>
-          <Skill url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Manjaro-logo.svg/1024px-Manjaro-logo.svg.png">Manjaro</Skill>
+          <div>
+            <h2>Languages/Frameworks</h2>
+            <div style={{backgroundColor: "#97DFFC"}}>
+              <Skill url="/img/python.png">Python</Skill>
+              <Skill url="/img/react.svg">React</Skill>
+              <Skill url="/img/html.png">HTML5</Skill>
+              <Skill url="/img/css.png">CSS3</Skill>
+              <Skill url="/img/js.png">JavaScript</Skill>
+              <Skill url="/img/cs.png">C#</Skill>
+              <Skill url="/img/cpp.png">C++</Skill>
+              <Skill url="/img/rust.png">Rust</Skill>
+            </div>
+          </div>
+          <div style={{backgroundColor: "#858AE3"}}>
+            <h2>Tools</h2>
+            <div>
+              <Skill url="/img/ubuntu.png">Ubuntu</Skill>
+              <Skill url="/img/manjaro.png">Manjaro</Skill>
+              <Skill url="/img/bash.png">Bash</Skill>
+              <Skill url="/img/powershell.png">PowerShell</Skill>
+              <Skill url="/img/git.png">Git</Skill>
+              <Skill url="/img/github.png">GitHub</Skill>
+              <Skill url="/img/openstack.png">OpenStack</Skill> 
+              <Skill url="/img/photoshop.png">Photoshop</Skill>
+              <Skill url="/img/sqlite.png">SQLite</Skill>
+            </div>
+          </div>
           </div>
       </div>
       </ScrollableAnchor>
