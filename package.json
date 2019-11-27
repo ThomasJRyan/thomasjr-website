@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ThomasJRyan.github.io/thomasjr-website",
+  "homepage": "http://ThomasJRyan.github.io",
   "name": "thomasjr-website",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,7 @@
     "react-scrollable-anchor": "^0.6.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
