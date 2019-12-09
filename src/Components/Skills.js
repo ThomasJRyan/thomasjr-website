@@ -27,7 +27,7 @@ export default class Skills extends React.Component {
             <div className="Skills-div">
                 <div>
                     <h2>Languages/Frameworks</h2>
-                    <div style={{backgroundColor: "#97DFFC"}}>
+                    <div style={{backgroundColor: "var(--light)"}}>
                     <Skill url="/img/python.png">Python</Skill>
                     <Skill url="/img/react.svg">React</Skill>
                     <Skill url="/img/lua.png">Lua</Skill>
@@ -41,7 +41,7 @@ export default class Skills extends React.Component {
                     <Skill url="/img/flask.png">Flask</Skill>
                     </div>
                 </div>
-                <div style={{backgroundColor: "#858AE3"}}>
+                <div style={{backgroundColor: "var(--mid-light)"}}>
                     <h2>Tools</h2>
                     <div>
                     <Skill url="/img/bash.png">Bash</Skill>

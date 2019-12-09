@@ -9,6 +9,7 @@ export default class Blurb extends React.Component {
           <div>
             <h1>About Me</h1>
             <div className="Blurb-div">
+              <img src="/img/goofy.jpeg" alt=""></img>
               <div style={{width: "100vmin", margin: "5vmin"}}>
                 {INFORMATION.bio.map((line) => (
                   <div>{line}</div>

@@ -1,14 +1,14 @@
-.colors{
-  color: #2c0735;
-  color: #4E148C;
-  color: #613DC1;
-  color: #858AE3;
-  color: #97DFFC;
+:root{
+  --dark: #42273b;
+  --mid-dark: #70566d;
+  --mid: #abc8c0;
+  --mid-light: #9ee493;
+  --light: #daf7dc;
 }
 
 @keyframes purple-breath {
-  from {background-color: #2c0735;}
-  to {background-color: #4E148C;}
+  from {background-color: var(--dark);}
+  to {background-color: var(--mid-dark);}
 }
 
 /* @keyframes purple-breath {
@@ -22,15 +22,12 @@
 
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 .App {
   text-align: center;
   overflow-x: hidden;
-}
-
-.App-logo {
-  height: 40vmin;
 }
 
 .App-header {
@@ -43,27 +40,24 @@ body {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
-}
-
 .Main-div {
   height: 100%;
 }
 
 .Title-div {
-  background-color: #2c0735;
+  background-color: var(--dark);
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  animation-name: purple-breath;
+  overflow: hidden;
+  /* animation-name: purple-breath;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-direction: alternate;
+  animation-direction: alternate; */
 }
 
 .Title-div div {
@@ -84,7 +78,8 @@ body {
 }
 
 .Title-div div a:hover {
-  color: #97DFFC;
+  color: var(--light);
+  text-shadow: 0px 0px 4px var(--light);
 }
 
 .Title-div div a:active {
@@ -92,24 +87,32 @@ body {
 }
 
 .Blurb-div {
-  /* background-color: #613DC1; */
-  background-color: skyblue;
+  background-color: var(--mid);
   color: black;
   width: 100vw;
   min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-flow: wrap;
   font-size: 0.9em;
 }
 
 .Blurb-div img {
-  width: calc(128px + 10vmin);
-  height: calc(128px + 10vmin);
+  /* width: calc(128px + 10vmin);
+  height: calc(128px + 10vmin); */
+  width: 50vmin;
+}
+
+@media only screen and (max-width: 1409px) {
+  .Blurb-div img {
+    margin-top: 5vmin;
+  }
 }
 
 .Skills-div {
-  background-color: #97DFFC;
+  background-color: var(--light);
   width: 100vw;
   /* min-height: 50vh; */
   display: flex;
@@ -172,10 +175,56 @@ body {
   height: 300%; */
 }
 
-.test {
-  position: fixed;
-  z-index: -1;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0);
+@keyframes flicker-anim {
+  0%, 15%, 23%, 34%, 47%, 53%, 69%, 75%, 82%, 96%, 100% {
+    /* text-shadow: 1px 1px 5px black; */
+    text-shadow: none;
+  }
+  26% {
+    text-shadow: 2px 2px 10px white;
+    /* transform: translateY(10px); */
+  }
 }
+
+.Flicker {
+  animation-name: flicker-anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.95,.05,.8,.04);
+  /* animation-direction: alternate; */
+}
+
+.Circle {
+  position: absolute;
+  height: 100vmin;
+  width: 100vmin;
+  z-index: 1;
+  /* background-color: royalblue; */
+  background-color: none;
+}
+
+.Circle div {
+  /* background-color: saddlebrown; */
+  background-color: none;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  position: relative;
+}
+
+@keyframes Spin {
+  0% {transform: rotateZ(0deg) translateX(-50vmin); background-color: rgba(0,0,0,0.1);}
+  100% {transform: rotateZ(360deg) translateX(-50vmin); background-color: rgba(0,0,0,0.1);}
+}
+
+.Circle div div {
+  background-color: none;
+  border-radius: 50%;
+  width: 5%;
+  height: 5%;
+  position: absolute;
+  animation-name: Spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0s;
+  }
