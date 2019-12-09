@@ -11,7 +11,7 @@ export default class Blurb extends React.Component {
             <div className="Blurb-div">
               <div style={{width: "100vmin", margin: "5vmin"}}>
                 {INFORMATION.bio.map((line) => (
-                  <p>{line}</p>
+                  <div>{line}</div>
                 ))}
               </div>
             </div>
