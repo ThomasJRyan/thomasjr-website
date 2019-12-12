@@ -6,7 +6,7 @@ export default class Blurb extends React.Component {
     render(){
       return(
         <ScrollableAnchor id={"Blurb"}>
-          <div>
+          <div style={{backgroundColor: "var(--mid-dark)"}}>
             <h1>About Me</h1>
             <div className="Blurb-div">
               <img src="/img/goofy.jpeg" alt=""></img>

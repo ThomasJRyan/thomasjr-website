@@ -78,8 +78,8 @@ body {
 }
 
 .Title-div div a:hover {
-  color: var(--light);
-  text-shadow: 0px 0px 4px var(--light);
+  color: var(--mid);
+  text-shadow: 0px 0px 4px var(--mid);
 }
 
 .Title-div div a:active {
@@ -87,8 +87,8 @@ body {
 }
 
 .Blurb-div {
-  background-color: var(--mid);
-  color: black;
+  background-color: var(--mid-dark);
+  color: white;
   width: 100vw;
   min-height: 50vh;
   display: flex;
@@ -103,6 +103,7 @@ body {
   /* width: calc(128px + 10vmin);
   height: calc(128px + 10vmin); */
   width: 50vmin;
+  box-shadow: 0 0 15px var(--dark);
 }
 
 @media only screen and (max-width: 1409px) {
@@ -112,7 +113,7 @@ body {
 }
 
 .Skills-div {
-  background-color: var(--light);
+  background-color: var(--mid);
   width: 100vw;
   /* min-height: 50vh; */
   display: flex;
@@ -227,4 +228,24 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: 0s;
+  }
+
+  .Education-div {
+    color: black;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Education-div span {
+    font-size: 4vmin;
+    font-weight: bold;
+  }
+
+  .Education-div sup {
+    font-size: 3vmin;
+  }
+
+  .Education-div li {
+    font-size: 2.5vmin;
   }

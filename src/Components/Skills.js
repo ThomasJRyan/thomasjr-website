@@ -1,15 +1,15 @@
 import React from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor';
-import star from '../star.svg';
+// import star from '../star.svg';
 
 class Skill extends React.Component {
     render(){
       return(
         <div className="Skill">
-          {this.props.star != undefined && 
+          {/*this.props.star !== undefined && 
             // <img src="/img/star.svg" className="Star"/>
             <img src={star} className="Star"/>
-          }
+          */}
           <img src={this.props.url} alt={this.props.children} className="Skill-logo"></img>
 
           <label>{this.props.children}</label>
@@ -22,12 +22,11 @@ export default class Skills extends React.Component {
     render(){
       return(
         <ScrollableAnchor id={'Skills'}>
-        <div>
-            <h1>Skills</h1>
+        <div style={{backgroundColor: "var(--mid)", color: "black"}}>
             <div className="Skills-div">
-                <div>
+                <div style={{backgroundColor: "var(--mid-light)"}}>
                     <h2>Languages/Frameworks</h2>
-                    <div style={{backgroundColor: "var(--light)"}}>
+                    <div>
                     <Skill url="/img/python.png">Python</Skill>
                     <Skill url="/img/react.svg">React</Skill>
                     <Skill url="/img/lua.png">Lua</Skill>
@@ -41,7 +40,7 @@ export default class Skills extends React.Component {
                     <Skill url="/img/flask.png">Flask</Skill>
                     </div>
                 </div>
-                <div style={{backgroundColor: "var(--mid-light)"}}>
+                <div style={{backgroundColor: "var(--light)"}}>
                     <h2>Tools</h2>
                     <div>
                     <Skill url="/img/bash.png">Bash</Skill>

@@ -74,6 +74,8 @@ export default class Title extends React.Component {
               <div>
                 <a href="#Blurb">About Me</a>
                 <p>|</p>
+                <a href="#Education">Education</a>
+                <p>|</p>
                 <a href="#Skills">Skills</a>
               </div>
             </div>
