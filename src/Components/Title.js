@@ -71,13 +71,7 @@ export default class Title extends React.Component {
               <p style={{margin: 0, fontSize: '6vmin', margin: "20px 0 60px 0"}}>
                 Network and IT Security
               </p>
-              <div>
-                <a href="#Blurb">About Me</a>
-                <p>|</p>
-                <a href="#Education">Education</a>
-                <p>|</p>
-                <a href="#Skills">Skills</a>
-              </div>
+              
             </div>
           </div>
         </ScrollableAnchor>

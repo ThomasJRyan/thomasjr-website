@@ -6,7 +6,7 @@ export default class Education extends React.Component {
     render(){
       return(
         <ScrollableAnchor id={"Education"}>
-          <div style={{backgroundColor: "var(--mid)", color: 'black'}}>
+          <div className="Education-container">
             <h1>Education</h1>
             <div className="Education-div">
               <div style={{width: "80vmin", margin: "5vmin"}}>

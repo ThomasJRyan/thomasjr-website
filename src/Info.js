@@ -19,7 +19,7 @@ var INFORMATION = {
             <br/>
             <sup>[Ontario Tech University, Ontario]</sup>
         </div>,
-        <ul style={{borderBottom: "5px solid black", paddingBottom: "30px"}}>
+        <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
             <li>Completed with a GPA of 3.28 / 4.3</li>
             <li>Excelled primarily in programming and cloud-based courses</li>
             <li>Minored in business management</li>
@@ -29,7 +29,7 @@ var INFORMATION = {
             <br/>
             <sup>[Ontario Tech University, Ontario]</sup>
         </div>,
-        <ul style={{borderBottom: "5px solid black", paddingBottom: "30px"}}>
+        <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
             <li>Currently on an indefinite leave of absence</li>
         </ul>
     ]

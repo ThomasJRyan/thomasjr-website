@@ -22,7 +22,7 @@ export default class Skills extends React.Component {
     render(){
       return(
         <ScrollableAnchor id={'Skills'}>
-        <div style={{backgroundColor: "var(--mid)", color: "black"}}>
+        <div className="Skills-container">
             <div className="Skills-div">
                 <div style={{backgroundColor: "var(--mid-light)"}}>
                     <h2>Languages/Frameworks</h2>
