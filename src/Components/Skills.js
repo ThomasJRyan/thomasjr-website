@@ -24,7 +24,7 @@ export default class Skills extends React.Component {
         <ScrollableAnchor id={'Skills'}>
         <div className="Skills-container">
             <div className="Skills-div">
-                <div style={{backgroundColor: "var(--mid-light)"}}>
+                <div style={{backgroundColor: "var(--light)"}}>
                     <h2>Languages/Frameworks</h2>
                     <div>
                     <Skill url="/img/python.png">Python</Skill>
@@ -36,11 +36,10 @@ export default class Skills extends React.Component {
                     <Skill url="/img/cs.png">C#</Skill>
                     <Skill url="/img/cpp.png">C++</Skill>
                     <Skill url="/img/rust.png">Rust</Skill>
-                    <Skill url="/img/java.png">Java</Skill>
                     <Skill url="/img/flask.png">Flask</Skill>
                     </div>
                 </div>
-                <div style={{backgroundColor: "var(--light)"}}>
+                <div style={{backgroundColor: "var(--lighter)"}}>
                     <h2>Tools</h2>
                     <div>
                     <Skill url="/img/bash.png">Bash</Skill>

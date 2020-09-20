@@ -5,6 +5,7 @@ import Title from './Components/Title.js'
 import Navbar from './Components/Navbar.js'
 import Blurb from './Components/Blurb.js'
 import Skills from './Components/Skills.js'
+import Experience from './Components/Experience.js'
 import Education from './Components/Education.js'
 import Links from './Components/Links.js'
 import Resume from './Components/Resume.js'
@@ -16,6 +17,7 @@ function App() {
         <Title/>
         <Navbar/>
         <Blurb/>
+        <Experience/>
         <Education/>
         <Skills/>
         <Links/>

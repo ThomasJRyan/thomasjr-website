@@ -24,14 +24,43 @@ var INFORMATION = {
             <li>Excelled primarily in programming and cloud-based courses</li>
             <li>Minored in business management</li>
         </ul>,
+        // <div style={{display: "inline"}}>
+        //     <span>Masters of Computer Science</span>
+        //     <br/>
+        //     <sup>[Ontario Tech University, Ontario]</sup>
+        // </div>,
+        // <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
+        //     <li>Currently on an indefinite leave of absence</li>
+        // </ul>
+    ],
+    experience: [
         <div style={{display: "inline"}}>
-            <span>Masters of Computer Science</span>
+            <span>Software Engineer</span>
             <br/>
-            <sup>[Ontario Tech University, Ontario]</sup>
+            <sup>[High Tech Genesis, Ottawa Ontario] - [May 2020 - Present]</sup>
         </div>,
         <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
-            <li>Currently on an indefinite leave of absence</li>
-        </ul>
+            <li>Work as a contracted developer through HTG</li>
+            <li>Currently working with Cisco helping develop their pyATS automation tool</li>
+        </ul>,
+        <div style={{display: "inline"}}>
+            <span>Teaching Assistant</span>
+            <br/>
+            <sup>[Ontario Tech University, Ontario] - [Jan 2018 - Dec 2019]</sup>
+        </div>,
+        <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
+            <li>Taught intro to programming and object-oriented concepts in Python</li>
+            <li>Prepared weekly labs designed to test concepts learned in lectures</li>
+        </ul>,
+        <div style={{display: "inline"}}>
+            <span>Research Assistant</span>
+            <br/>
+            <sup>[Ontario Tech University, Ontario] - [Sept 2017 - Apr 2018]</sup>
+        </div>,
+        <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
+            <li>Assisted in writing Google data processors for analyzing public transit routes</li>
+            <li>Worked closely with faculty and master’s students to produce useful results</li>
+        </ul>,
     ]
 };
 

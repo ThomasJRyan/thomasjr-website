@@ -10,7 +10,8 @@
 
 :root{
   --dark: #42273b;
-  --mid-dark: #70566d;
+  --mid-dark: #503d4e;
+  --mid-mid-dark: #685665;
   --mid: #826c7f;
   --mid-light: #a88fac;
   --light: #d4b2d8;
@@ -87,7 +88,7 @@ body {
 
 .Navigation-bar {
   position: absolute;
-  top: 80vh;
+  top: 70vh;
   z-index: 6;
   display: flex;
   align-items: center;
@@ -135,14 +136,14 @@ body {
 }
 
 .Blurb-container {
-  background-color: var(--mid-dark);
+  background-color: var(--mid-mid-dark);
   width: 95vw;
   margin-bottom: 5vmin;
   color: var(--dark-text);
 }
 
 .Blurb-div {
-  background-color: var(--mid-dark);
+  background-color: var(--mid-mid-dark);
   width: 100%;
   min-height: 50vh;
   display: flex;
@@ -165,9 +166,35 @@ body {
     margin-top: 5vmin;
   }
 }
+.Experience-container {
+  background-color: var(--mid);
+  color: var(--dark-text);
+  width: 95vw;
+  margin-bottom: 5vmin;
+}
+
+.Experience-div {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.Experience-div span {
+  font-size: 4vmin;
+  font-weight: bold;
+  color:var(--dark);
+}
+
+.Experience-div sup {
+  font-size: 3vmin;
+}
+
+.Experience-div li {
+  font-size: 2.5vmin;
+}
 
 .Education-container {
-  background-color: var(--mid);
+  background-color: var(--mid-light);
   color: var(--dark-text);
   width: 95vw;
   margin-bottom: 5vmin;
@@ -182,6 +209,7 @@ body {
 .Education-div span {
   font-size: 4vmin;
   font-weight: bold;
+  color: var(--dark);
 }
 
 .Education-div sup {
@@ -264,7 +292,7 @@ body {
 }
 
 .Link-container {
-  background-color: var(--lighter);
+  background-color: var(--lightest);
   color: var(--dark-text);
   width: 95vw;
   min-height: 37vmin;
