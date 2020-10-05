@@ -37,11 +37,15 @@ var INFORMATION = {
         <div style={{display: "inline"}}>
             <span>Software Engineer</span>
             <br/>
-            <sup>[High Tech Genesis, Ottawa Ontario] - [May 2020 - Present]</sup>
+            <sup>[Cisco, Ottawa Ontario] - [May 2020 - Present]</sup>
         </div>,
         <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
-            <li>Work as a contracted developer through HTG</li>
-            <li>Currently working with Cisco helping develop their pyATS automation tool</li>
+            <li>Contributed to development of the pyATS network test and automation framework</li>
+            <li style={{paddingLeft: "10px"}}>Developed parsers using regular expressions along with APIs designed to use them</li>
+            <li style={{paddingLeft: "10px"}}>Ensured stability across external and internal builds of the codebase</li>
+            <li>Built unit tests for international customers that allows them to test network devices</li>
+            <li>Created scripts and tools to improve productivity of the development team</li>
+            <li>Worked with internal Cisco users and external Cisco customers to provide product support</li>
         </ul>,
         <div style={{display: "inline"}}>
             <span>Teaching Assistant</span>
