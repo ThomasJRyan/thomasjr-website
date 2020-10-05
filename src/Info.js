@@ -41,8 +41,10 @@ var INFORMATION = {
         </div>,
         <ul style={{borderBottom: "5px solid var(--dark-text)", paddingBottom: "30px"}}>
             <li>Contributed to development of the pyATS network test and automation framework</li>
-            <li style={{paddingLeft: "10px"}}>Developed parsers using regular expressions along with APIs designed to use them</li>
-            <li style={{paddingLeft: "10px"}}>Ensured stability across external and internal builds of the codebase</li>
+            <ul>
+                <li style={{paddingLeft: "10px"}}>Developed parsers using regular expressions along with APIs designed to use them</li>
+                <li style={{paddingLeft: "10px"}}>Ensured stability across external and internal builds of the codebase</li>
+            </ul>
             <li>Built unit tests for international customers that allows them to test network devices</li>
             <li>Created scripts and tools to improve productivity of the development team</li>
             <li>Worked with internal Cisco users and external Cisco customers to provide product support</li>
