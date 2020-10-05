@@ -26,6 +26,8 @@ export default class Education extends React.Component {
         <div className="Navigation-bar" >
             <a href="#Blurb">About Me</a>
             <p>|</p>
+            <a href="#Experience">Experience</a>
+            <p>|</p>
             <a href="#Education">Education</a>
             <p>|</p>
             <a href="#Skills">Skills</a>
