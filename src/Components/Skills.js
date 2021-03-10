@@ -37,6 +37,7 @@ export default class Skills extends React.Component {
                     <Skill url="/img/cpp.png">C++</Skill>
                     <Skill url="/img/rust.png">Rust</Skill>
                     <Skill url="/img/flask.png">Flask</Skill>
+                    <Skill url="/img/django.webp">Django</Skill>
                     </div>
                 </div>
                 <div style={{backgroundColor: "var(--lighter)"}}>
